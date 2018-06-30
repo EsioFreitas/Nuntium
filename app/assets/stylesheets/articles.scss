@@ -1,0 +1,18 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+art {
+    color: #0B0704;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5em;
+    line-height: 3.5rem;
+    text-align: justify;
+}
+
+.date{
+    font-size: 1.5em;
+}
+
+.show-article{
+    margin-left: 5em;
+}
