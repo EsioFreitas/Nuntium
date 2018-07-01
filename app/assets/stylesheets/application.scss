@@ -16,12 +16,12 @@
  #Trending {
      display: flex;
      flex-wrap: wrap;
+     justify-content: space-around;
  }
 
  #BigTrending {
     width: 45%;
     height: 30em !important;
-    margin-right: 6.5%;
 }
 
 #ImagemCard {
@@ -59,9 +59,47 @@
 }
 
 #BigTrending:hover #CardOverlay {
-    opacity: 0.5;
+    opacity: 0.6;
 } 
 
 #SmallTrending:hover #CardOverlay {
-    opacity: 0.5;
+    opacity: 0.6;
 } 
+
+#Tags {
+    height: 17em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Tag {
+    height: 8em !important;
+    width: 21.25%;
+    margin-bottom: 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+#TagName {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Tag #ImagemCardSmall {
+   width: 100%; 
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+#Tag:hover #ImagemCardSmall {
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}
