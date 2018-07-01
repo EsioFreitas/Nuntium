@@ -64,15 +64,17 @@
   </nav>
   <% #Fim Navbar %>
 
-
+  <% #HomePage %>
   <div class= "container">
     <div>
       <h3>Whats New?</h3>
       <hr></hr>
     </div>
 
+    <% #Area What's New? %>
     <div id = "Trending" style = "margin-bottom: 5em">
 
+      <% #Artigo Grande %>
       <div id = "BigTrending" href = "articles/new">
         <div class="card bg-dark text-white">
           <%= image_tag "foto.jpg", id: "ImagemCard" %>
@@ -85,6 +87,9 @@
         </div>
       </div>
 
+      <% #Fim Artigo Grande %>
+
+      <% #Artigos Pequenos %>
       <div id = "SmallTrendingArea">
 
         <div id = "SmallTrending">
@@ -124,14 +129,17 @@
         </div>
 
       </div>
+      <% #Fim Artigos Pequenos %>
 
     </div>
+    <% #Fim Area What's New? %>
 
     <div>
       <h3>Tags</h3>
       <hr></hr>
     </div>
 
+    <% #Tags %>
     <div id ="Tags">
       <div class="card bg-dark text-white" id = "Tag">
         <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
@@ -162,34 +170,34 @@
       </div> 
 
       <div class="card bg-dark text-white" id = "Tag">
-      <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-      <div class="card-img-overlay" id = "TagName">
-        <h1 class="card-title">5</h1>
-      </div>
-    </div> 
+        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
+        <div class="card-img-overlay" id = "TagName">
+          <h1 class="card-title">5</h1>
+        </div>
+      </div> 
 
-    <div class="card bg-dark text-white" id = "Tag">
-      <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-      <div class="card-img-overlay" id = "TagName">
-        <h1 class="card-title">6</h1>
-      </div>
-    </div> 
+      <div class="card bg-dark text-white" id = "Tag">
+        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
+        <div class="card-img-overlay" id = "TagName">
+          <h1 class="card-title">6</h1>
+        </div>
+      </div> 
 
-    <div class="card bg-dark text-white" id = "Tag">
-      <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-      <div class="card-img-overlay" id = "TagName">
-        <h1 class="card-title">7</h1>
-      </div>
-    </div> 
+      <div class="card bg-dark text-white" id = "Tag">
+        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
+        <div class="card-img-overlay" id = "TagName">
+          <h1 class="card-title">7</h1>
+        </div>
+      </div> 
 
-    <div class="card bg-dark text-white" id = "Tag">
-      <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-      <div class="card-img-overlay" id = "TagName">
-        <h1 class="card-title">8</h1>
+      <div class="card bg-dark text-white" id = "Tag">
+        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
+        <div class="card-img-overlay" id = "TagName">
+          <h1 class="card-title">8</h1>
       </div>
     </div> 
-    
-    </div>
+    <% #Fim Tags %>
+
 
   </div>
 
