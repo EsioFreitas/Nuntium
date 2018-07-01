@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
+  before_action :set_tag, only: [:create, :edit, :new]
 
   # GET /articles
   # GET /articles.json
@@ -69,6 +70,11 @@ class ArticlesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def article_params
-      params.require(:article).permit(:title, :content, :photo)
+      params.require(:article).permit(:title, :content, :photo, :tag_id)
     end
+
+    def set_tag
+      @tags = Tag.all
+    end
+
 end

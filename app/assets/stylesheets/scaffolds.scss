@@ -2,13 +2,13 @@ body {
   background-color: #fff;
   color: #333;
   margin: 33px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: 'Source Serif Pro', serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -82,14 +82,3 @@ div {
 label {
   display: block;
 }
-
-.form-control:focus {
-  border-color: rgb(255, 0, 191);
-}
-
-.btn-primary{
-  color: #000;
-  font-weight: bold;
-  
-}
-

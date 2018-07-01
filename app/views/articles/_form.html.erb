@@ -31,6 +31,14 @@
   </div>
 
   <div class="form-group">
+    <%= f.label :tag, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+    <%= f.collection_select(:tag_id, @tags, :id, :name, include_blank: true) %>
+    </div>
+    <%=f.error_span(:tag) %>
+  </div>
+
+  <div class="form-group">
     <%= f.label :photo, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
     <%= f.file_field :photo %>
