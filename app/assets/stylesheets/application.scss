@@ -19,24 +19,28 @@
  }
 
  #BigTrending {
-    width: 50%;
-    height: 35em !important;
-    margin-right: 1em !important;
-}
-
-#SmallTrending {
-    width: 50%;
-    height: 35em !important;
-    margin: 0% !important;
-}
-
-#SmallCard {
-    width: 20%;
-    height: 15em;
-    margin: 0% !important;
+    width: 45%;
+    height: 30em !important;
+    margin-right: 6.5%;
 }
 
 #ImagemCard {
     object-fit: cover;
-    height: 35em;
+    height: 30em;
+}
+
+#SmallTrendingArea {
+    width: 45%;
+    height: 30em;
+}
+
+#SmallTrending {
+    width: 100%;
+    height: 8em !important;
+    margin-bottom: 3em;
+}
+
+#ImagemCardSmall {
+    object-fit: cover;
+    height: 8em;
 }
