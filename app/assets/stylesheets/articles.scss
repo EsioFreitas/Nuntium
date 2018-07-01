@@ -16,3 +16,28 @@ art {
 .show-article{
     margin-left: 5em;
 }
+
+.photo{
+    width: 1em;
+    
+}
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallaxBar{
+    height:750px;
+    background-color:#004c82;
+    background: url(../img/bgparallax.png) 50% 0 fixed;
+    position: relative; 
+}

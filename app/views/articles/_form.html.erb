@@ -1,4 +1,4 @@
-<%= form_for @article, :html => { :class => "form-horizontal article" } do |f| %>
+<%= form_for @article, html: { multipart: true }, :html => { :class => "form-horizontal article" } do |f| %>
 
   <% if @article.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
@@ -28,6 +28,14 @@
       <%= f.text_area :content, :class => 'form-control', size: "60x12" %>
     </div>
     <%=f.error_span(:content) %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :photo, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+    <%= f.file_field :photo %>
+    </div>
+    <%=f.error_span(:photo) %>
   </div>
 
   <div class="form-group">

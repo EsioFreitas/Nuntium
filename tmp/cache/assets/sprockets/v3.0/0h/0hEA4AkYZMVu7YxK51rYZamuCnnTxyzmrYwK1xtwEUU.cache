@@ -1,0 +1,36 @@
+{:uriI"ñfile://app/assets/javascripts/parallax.js-1.5.0/package.json?type=application/json&id=8816bfbe5d24b69e3e71923d045060130d13de3703608a5ed6d5c86a84569a11:ET:load_pathI"app/assets/javascripts;T:filenameI":app/assets/javascripts/parallax.js-1.5.0/package.json;T:	nameI"parallax.js-1.5.0/package;T:logical_pathI"#parallax.js-1.5.0/package.json;T:content_typeI"application/json;T:sourceI" {
+  "name": "jquery-parallax.js",
+  "version": "1.5.0",
+  "description": "Simple parallax scrolling effect inspired by spotify.com implemented as a jQuery plugin",
+  "main": "parallax.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelcog/parallax.js.git"
+  },
+  "keywords": [
+    "parallax",
+    "scroll",
+    "scrolling",
+    "image"
+  ],
+  "author": [
+    "Mike Greiling <mike@pixelcog.com> (http://pixelcog.com)",
+    "Wolfgang St√∂ttinger (http://www.wolfography.at)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelcog/parallax.js/issues"
+  },
+  "homepage": "https://github.com/pixelcog/parallax.js#readme",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Hfile-digest://app/assets/javascripts/parallax.js-1.5.0/package.json;TTF:charsetI"
+utf-8;F:digest"%°¨T”Ù´•¯@˝âl∏qd˝_.Ck/‡C:l√◊√:lengthi :dependencies_digest"%Àò\Í:G¸Ÿvg!Up>C(Bˇ/æÓ\ı Å›üF:idI"E8816bfbe5d24b69e3e71923d045060130d13de3703608a5ed6d5c86a84569a11;F:
+mtimel+eZ‹Y
