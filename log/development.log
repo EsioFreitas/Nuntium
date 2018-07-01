@@ -13061,3 +13061,136 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 2401ms (Views: 2400.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:37:07 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:80: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="card-img-overlay" id ="CardOverlay">
+                                          ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:81: syntax error, unexpected '<'
+            <h5 class="card-title">Card title</h5>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:81: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+            <h5 class="card-title">Card title</h5>
+                                             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:82: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:83: syntax error, unexpected '<'
+            <p class="card-text">Last updated 3 mins ago</p>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:83: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+            <p class="card-text">Last updated 3 mins ago</p>
+                                             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:84: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:85: syntax error, unexpected '<'
+        </div>
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:86: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:88: syntax error, unexpected '<'
+      <div id = "SmallTrendingArea">
+       ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:90: syntax error, unexpected '<'
+        <div id = "SmallTrending">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:92: syntax error, unexpected '<'
+          <div class="card bg-dark text-white">
+           ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:93: syntax error, unexpected '<'
+            <%= image_tag "foto.jpg", id: ...
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:139: syntax error, unexpected keyword_ensure, expecting ')'
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/layouts/home.html.erb:141: syntax error, unexpected keyword_end, expecting ')':
+  app/views/layouts/home.html.erb:78:in `'
+
+Started POST "/__better_errors/20ed9e8b3f9b979f/variables" for 127.0.0.1 at 2018-07-01 16:37:07 -0300
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:37:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 3242ms (Views: 3240.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:42:11 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2449ms (Views: 2447.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:42:45 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 2321ms (Views: 2319.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:43:54 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2510ms (Views: 2508.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:45:04 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 2314ms (Views: 2304.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:45:16 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 91ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:45:29 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 2333ms (Views: 2331.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:46:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:46:20 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:46:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 113ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:46:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 83ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:47:05 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+

@@ -44,3 +44,24 @@
     object-fit: cover;
     height: 8em;
 }
+
+#CardOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+#BigTrending:hover #CardOverlay {
+    opacity: 0.5;
+} 
+
+#SmallTrending:hover #CardOverlay {
+    opacity: 0.5;
+} 
