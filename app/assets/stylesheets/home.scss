@@ -3,17 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import " bootstrap ";
 
-#Trending {
-     
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#BigTrending {
-   width: 45%;
-   height: 30em !important;
-}
 
 #ImagemCard {
    object-fit: cover;
@@ -21,12 +10,16 @@
 }
 
 #SmallTrendingArea {
-   width: 40%;
+   width: 100%;
    height: 30em;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 5%;
 }
 
 #SmallTrending {
-   width: 100%;
+   width: 47%;
    height: 8em !important;
    margin-bottom: 3em;
 }
