@@ -7,10 +7,12 @@
 
 <div class="text-center date">
   <%= @article.created_at.strftime('%A, %B %d')%>
+  <%=  @article.tag.name %>
 </div>
 
 <div class="container content">
   <%=  @article.content %>
+  
 </div> 
 <div class="container">
 <div id="disqus_thread"></div>
