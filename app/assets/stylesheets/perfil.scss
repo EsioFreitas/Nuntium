@@ -4,14 +4,20 @@
 
 @import " bootstrap ";
 
+
 #UserPage {
     display: flex;
     flex-wrap: wrap;
 }
 
+#NomeTexto {
+
+}
+
 #FotoDescricao {
     width: 20em;
-    margin-right: 2em;
+    margin-right: 10em;
+    margin-left: 5em;
 }
 
 #UserImage {
@@ -26,20 +32,38 @@
 } 
 
 #Tabs {
-    width: 45em;
+    width: 85em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #ArtigoPublicado {
-    height: 12em;
-    width: 12em;
+    height: 20em;
+    width: 20em;
     position: relative;
     overflow: hidden;
-    margin: 1.5em;
+    margin-bottom: 1em;
 }
 
 #ImagemArtigoPublicado {
     height: 100%;
     object-fit: cover;
 }
+
+#ArticleOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #231e1e;
+ }
+ 
+ #ArtigoPublicado:hover #ArticleOverlay {
+    opacity: 0.6;
+ } 
