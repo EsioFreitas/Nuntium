@@ -20,6 +20,14 @@
 
 .back {
     background-color: #f9f9f9;
+    padding-top: 5em;
+}
+
+#NavBar {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
 }
  
  
