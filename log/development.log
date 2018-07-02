@@ -10405,6 +10405,11 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 14:05:10 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+=======
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:43:04 -0300
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
@@ -10420,10 +10425,13 @@ Started GET "/articles" for 127.0.0.1 at 2018-07-01 14:05:10 -0300
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Processing by ArticlesController#index as HTML
   Rendering articles/index.html.erb within layouts/application
   [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
   ↳ app/views/articles/index.html.erb:16
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
   Rendered articles/index.html.erb within layouts/application (51.8ms)
 Completed 200 OK in 168ms (Views: 144.0ms | ActiveRecord: 2.2ms)
@@ -10431,11 +10439,14 @@ Completed 200 OK in 168ms (Views: 144.0ms | ActiveRecord: 2.2ms)
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 14:43:09 -0300
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   Rendered articles/index.html.erb within layouts/application (28.6ms)
 Completed 200 OK in 422ms (Views: 405.1ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 14:05:11 -0300
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
@@ -10509,6 +10520,7 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 14:43:36 -0300
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
   
@@ -10539,6 +10551,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 14:44:14 -0300
 Processing by ArticlesController#index as HTML
   Rendering articles/index.html.erb within layouts/application
@@ -10690,6 +10704,7 @@ Started GET "/app/assets/stylesheets/home.scss" for 127.0.0.1 at 2018-07-01 15:0
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/home.scss"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:05:15 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -10868,7 +10883,10 @@ Completed 200 OK in 91ms (Views: 87.3ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:31:56 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -10897,6 +10915,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:29 -0300
 Processing by HomeController#index as HTML
@@ -10916,6 +10936,7 @@ Started GET "/app/assets/stylesheets/home.scss" for 127.0.0.1 at 2018-07-01 15:0
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/home.scss"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:03 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -10926,7 +10947,10 @@ Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:03 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -10956,6 +10980,8 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:07:36 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -10967,6 +10993,7 @@ Started GET "/app/assets/stylesheets/home.scss" for 127.0.0.1 at 2018-07-01 15:0
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/home.scss"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:04 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -10977,7 +11004,10 @@ Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:04 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11006,6 +11036,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
   [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/bin/rake:23
@@ -11045,6 +11077,7 @@ Started GET "/app/assets/stylesheets/home.scss" for 127.0.0.1 at 2018-07-01 15:2
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/home.scss"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:11 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11055,7 +11088,10 @@ Completed 200 OK in 104ms (Views: 100.6ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:11 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11084,6 +11120,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 15:26:04 -0300
 Processing by ArticlesController#index as HTML
@@ -11104,6 +11142,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:17 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11114,7 +11153,10 @@ Completed 200 OK in 134ms (Views: 131.2ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:17 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11144,10 +11186,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:04 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:30 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11158,7 +11203,10 @@ Completed 200 OK in 107ms (Views: 100.7ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:30 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11187,6 +11235,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 15:26:09 -0300
 Processing by Devise::RegistrationsController#new as HTML
@@ -11232,6 +11282,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:32:31 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11242,7 +11293,10 @@ Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.0ms)
 Started GET "/foto.jpeg" for 127.0.0.1 at 2018-07-01 14:32:31 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11272,10 +11326,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:22 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:36:16 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11286,7 +11343,10 @@ Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
 Started GET "/foto,jpeg" for 127.0.0.1 at 2018-07-01 14:36:16 -0300
   
 ActionController::RoutingError (No route matches [GET] "/foto,jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11315,6 +11375,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 15:26:28 -0300
 Processing by ArticlesController#show as HTML
@@ -11382,6 +11444,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:38:33 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11391,7 +11454,10 @@ Completed 200 OK in 198ms (Views: 196.7ms | ActiveRecord: 0.0ms)
 
   
 ActionController::RoutingError (No route matches [GET] "/assets/images/foto,jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11406,15 +11472,21 @@ activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
 activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
 rack (2.0.5) lib/rack/method_override.rb:22:in `call'
@@ -11430,10 +11502,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:43 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:38:51 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11443,7 +11518,10 @@ Completed 200 OK in 135ms (Views: 126.8ms | ActiveRecord: 0.0ms)
 
   
 ActionController::RoutingError (No route matches [GET] "/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11458,15 +11536,21 @@ activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
 activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
 rack (2.0.5) lib/rack/method_override.rb:22:in `call'
@@ -11482,10 +11566,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:46 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:39:06 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11495,7 +11582,10 @@ Completed 200 OK in 96ms (Views: 94.3ms | ActiveRecord: 0.0ms)
 
   
 ActionController::RoutingError (No route matches [GET] "/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11510,15 +11600,21 @@ activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
 activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
 rack (2.0.5) lib/rack/method_override.rb:22:in `call'
@@ -11534,10 +11630,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:47 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:39:26 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11547,7 +11646,10 @@ Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.0ms)
 
   
 ActionController::RoutingError (No route matches [GET] "/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11562,15 +11664,21 @@ activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
 activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
 rack (2.0.5) lib/rack/method_override.rb:22:in `call'
@@ -11585,6 +11693,23 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 14:39:46 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/foto.jpeg"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+=======
 <<<<<<< HEAD
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 15:26:49 -0300
 Processing by ArticlesController#show as HTML
@@ -11645,6 +11770,7 @@ web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
 web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
 web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
 railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
@@ -11653,15 +11779,21 @@ activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
 activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
 railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
 activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
 activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
 actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
 rack (2.0.5) lib/rack/method_override.rb:22:in `call'
@@ -11677,10 +11809,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 15:26:54 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 14:40:31 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11768,7 +11903,10 @@ Completed 200 OK in 72ms (Views: 69.9ms | ActiveRecord: 0.0ms)
 Started GET "/.../100px270/" for 127.0.0.1 at 2018-07-01 14:59:53 -0300
   
 ActionController::RoutingError (No route matches [GET] "/.../100px270"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11798,10 +11936,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/users" for 127.0.0.1 at 2018-07-01 15:28:36 -0300
   
 ActionController::RoutingError (No route matches [GET] "/users"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:00:38 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11812,7 +11953,10 @@ Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.0ms)
 Started GET "/app/assets/images/foto.jpeg" for 127.0.0.1 at 2018-07-01 15:00:38 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11841,6 +11985,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/bin/rake:23
@@ -11878,6 +12024,7 @@ Started GET "/app/assets/stylesheets/home.scss" for 127.0.0.1 at 2018-07-01 16:0
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/home.scss"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:00:39 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11888,7 +12035,10 @@ Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
 Started GET "/app/assets/images/foto.jpeg" for 127.0.0.1 at 2018-07-01 15:00:40 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11917,6 +12067,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 16:08:27 -0300
 Processing by ArticlesController#index as HTML
@@ -11933,6 +12085,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:00:48 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11943,7 +12096,10 @@ Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
 Started GET "/app/assets/images/foto.jpeg" for 127.0.0.1 at 2018-07-01 15:00:49 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -11973,10 +12129,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:08:27 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:01:01 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -11987,7 +12146,10 @@ Completed 200 OK in 118ms (Views: 114.9ms | ActiveRecord: 0.0ms)
 Started GET "/..assets/images/foto.jpeg" for 127.0.0.1 at 2018-07-01 15:01:01 -0300
   
 ActionController::RoutingError (No route matches [GET] "/..assets/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12016,6 +12178,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 16:08:30 -0300
 Processing by ArticlesController#show as HTML
@@ -12065,6 +12229,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:01:19 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12089,7 +12254,10 @@ Completed 200 OK in 97ms (Views: 95.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpeg" for 127.0.0.1 at 2018-07-01 15:05:41 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpeg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12118,6 +12286,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 16:09:26 -0300
 Processing by Devise::SessionsController#new as HTML
@@ -12139,6 +12309,7 @@ Started GET "/users" for 127.0.0.1 at 2018-07-01 16:09:31 -0300
   
 ActionController::RoutingError (No route matches [GET] "/users"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:22 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12149,7 +12320,10 @@ Completed 200 OK in 203ms (Views: 201.9ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:22 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12178,6 +12352,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 16:09:35 -0300
 Processing by Rails::InfoController#routes as HTML
@@ -12192,6 +12368,7 @@ Started GET "/users/new" for 127.0.0.1 at 2018-07-01 16:10:12 -0300
   
 ActionController::RoutingError (No route matches [GET] "/users/new"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:51 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12202,7 +12379,10 @@ Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:51 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12231,6 +12411,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/edit" for 127.0.0.1 at 2018-07-01 16:10:33 -0300
 Processing by Devise::RegistrationsController#edit as HTML
@@ -12245,6 +12427,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:52 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12255,7 +12438,10 @@ Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:53 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12285,10 +12471,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:11:32 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:53 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12299,7 +12488,10 @@ Completed 200 OK in 79ms (Views: 74.5ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:53 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12329,10 +12521,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:11:32 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:53 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12343,7 +12538,10 @@ Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:54 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12372,6 +12570,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 16:11:33 -0300
 Processing by ArticlesController#show as HTML
@@ -12426,6 +12626,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:06:54 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12436,7 +12637,10 @@ Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:06:54 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12466,10 +12670,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:14:57 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:09:31 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12480,7 +12687,10 @@ Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:09:31 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12509,6 +12719,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/new" for 127.0.0.1 at 2018-07-01 16:14:59 -0300
 Processing by ArticlesController#new as HTML
@@ -12545,6 +12757,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:10:10 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12555,7 +12768,10 @@ Completed 200 OK in 3297ms (Views: 3295.1ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:10:13 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12585,10 +12801,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:15:08 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:11:06 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12599,7 +12818,10 @@ Completed 200 OK in 658ms (Views: 656.1ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:11:07 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12629,10 +12851,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:24:52 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:11:20 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12643,7 +12868,10 @@ Completed 200 OK in 135ms (Views: 132.1ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:11:20 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12672,6 +12900,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 16:24:54 -0300
 Processing by ArticlesController#index as HTML
@@ -12718,6 +12948,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:12:35 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12728,7 +12959,10 @@ Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:12:36 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12758,10 +12992,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:25:11 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:12:43 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12772,7 +13009,10 @@ Completed 200 OK in 83ms (Views: 75.0ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:12:43 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12801,6 +13041,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 16:25:13 -0300
 Processing by ArticlesController#show as HTML
@@ -12833,6 +13075,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:13:34 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12843,7 +13086,10 @@ Completed 200 OK in 2540ms (Views: 2538.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:13:37 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12872,6 +13118,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/new" for 127.0.0.1 at 2018-07-01 16:34:53 -0300
 Processing by ArticlesController#new as HTML
@@ -12924,6 +13172,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:13:47 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12946,7 +13195,10 @@ Completed 200 OK in 2635ms (Views: 2633.9ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:14:04 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -12976,10 +13228,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 16:34:59 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:14:22 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -12990,7 +13245,10 @@ Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:14:22 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13019,6 +13277,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/2" for 127.0.0.1 at 2018-07-01 16:35:24 -0300
 Processing by ArticlesController#show as HTML
@@ -13040,6 +13300,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:24 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13050,7 +13311,10 @@ Completed 200 OK in 73ms (Views: 70.9ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:25 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13080,9 +13344,22 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+=======
+<<<<<<< HEAD
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 16:35:24 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13111,6 +13388,18 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.6ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:36 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+=======
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/bin/rake:23
 Migrating to AddField (20180701201435)
@@ -13161,6 +13450,7 @@ Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:35 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13189,6 +13479,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:37 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:37 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+=======
 <<<<<<< HEAD
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 17:15:15 -0300
   
@@ -13205,6 +13504,7 @@ Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:36 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13234,6 +13534,14 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Completed 200 OK in 240ms (Views: 237.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:37 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:15:15 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
@@ -13246,6 +13554,7 @@ Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:37 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13274,6 +13583,11 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+=======
 <<<<<<< HEAD
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 17:15:18 -0300
 Processing by ArticlesController#index as HTML
@@ -13380,6 +13694,7 @@ ActionController::RoutingError (No route matches [GET] "/user"):
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:24:44 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   Rendered home/index.html.erb within layouts/home (0.5ms)
 Completed 200 OK in 76ms (Views: 73.9ms | ActiveRecord: 0.0ms)
 
@@ -13387,7 +13702,10 @@ Completed 200 OK in 76ms (Views: 73.9ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:24:44 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13416,6 +13734,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 17:15:38 -0300
 Processing by Rails::InfoController#routes as HTML
@@ -13430,6 +13750,7 @@ Started GET "/users/sign_out" for 127.0.0.1 at 2018-07-01 17:16:02 -0300
   
 ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:25:58 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13440,7 +13761,10 @@ Completed 200 OK in 2647ms (Views: 2645.3ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:26:00 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13470,10 +13794,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/users/sign_out" for 127.0.0.1 at 2018-07-01 17:16:05 -0300
   
 ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:29:33 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13484,7 +13811,10 @@ Completed 200 OK in 2851ms (Views: 2845.5ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:29:36 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13513,6 +13843,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/edit" for 127.0.0.1 at 2018-07-01 17:16:30 -0300
 Processing by Devise::RegistrationsController#edit as HTML
@@ -13527,6 +13859,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:29:58 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13537,7 +13870,10 @@ Completed 200 OK in 2877ms (Views: 2875.1ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:30:01 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13566,6 +13902,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/edit" for 127.0.0.1 at 2018-07-01 17:20:52 -0300
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -13599,6 +13937,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:30:13 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13609,7 +13948,10 @@ Completed 200 OK in 2970ms (Views: 2968.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:30:16 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13639,10 +13981,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:21:26 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:30:30 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13653,7 +13998,10 @@ Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:30:30 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13682,6 +14030,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started DELETE "/users" for 127.0.0.1 at 2018-07-01 17:21:30 -0300
 Processing by Devise::RegistrationsController#destroy as HTML
@@ -13729,6 +14079,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:31:54 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13739,7 +14090,10 @@ Completed 200 OK in 2338ms (Views: 2336.9ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:31:57 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13769,10 +14123,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:21:53 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:32:46 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13783,7 +14140,10 @@ Completed 200 OK in 2338ms (Views: 2336.6ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:32:49 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13812,6 +14172,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 17:21:56 -0300
 Processing by Devise::RegistrationsController#new as HTML
@@ -13838,6 +14200,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:33:11 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13848,7 +14211,10 @@ Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:33:11 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13878,10 +14244,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:22:56 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:33:43 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -13892,7 +14261,10 @@ Completed 200 OK in 5668ms (Views: 5665.8ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:33:49 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -13921,6 +14293,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 17:22:58 -0300
 Processing by Devise::RegistrationsController#new as HTML
@@ -14009,6 +14383,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:59:28 -0300
   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
@@ -14021,7 +14396,10 @@ Completed 200 OK in 670ms (Views: 659.2ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:59:29 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14051,6 +14429,11 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:59:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:40:05 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
@@ -14059,6 +14442,7 @@ Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 15:59:29 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14087,6 +14471,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 17:40:12 -0300
 Processing by Devise::RegistrationsController#new as HTML
@@ -14108,6 +14494,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 15:59:59 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14118,7 +14505,10 @@ Completed 200 OK in 3028ms (Views: 3025.7ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 16:00:02 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14148,10 +14538,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:47:57 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 16:00:13 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14162,7 +14555,10 @@ Completed 200 OK in 2328ms (Views: 2325.5ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 16:00:15 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14191,6 +14587,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 17:48:09 -0300
 Processing by Devise::RegistrationsController#new as HTML
@@ -14204,6 +14602,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 16:03:22 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14214,7 +14613,10 @@ Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 16:03:22 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14244,10 +14646,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:48:09 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 16:03:34 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14258,7 +14663,10 @@ Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 16:03:34 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14287,6 +14695,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started POST "/users" for 127.0.0.1 at 2018-07-01 17:48:17 -0300
 Processing by Devise::RegistrationsController#create as HTML
@@ -14325,6 +14735,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 16:08:38 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14335,7 +14746,10 @@ Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.0ms)
 Started GET "/images/foto.jpg" for 127.0.0.1 at 2018-07-01 16:08:39 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/foto.jpg"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14364,6 +14778,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/2" for 127.0.0.1 at 2018-07-01 17:48:20 -0300
 Processing by ArticlesController#show as HTML
@@ -14479,6 +14895,7 @@ Completed 200 OK in 124ms (Views: 96.8ms | ActiveRecord: 2.7ms)
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:48:30 -0300
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/" for 127.0.0.1 at 2018-07-01 16:10:54 -0300
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/home
@@ -14871,7 +15288,10 @@ Completed 200 OK in 108ms (Views: 99.5ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:56:30 -0300
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
   
@@ -14903,6 +15323,11 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:56:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
+=======
+<<<<<<< HEAD
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 17:48:30 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
@@ -14911,6 +15336,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -14939,6 +15365,11 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 16:56:53 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+=======
 <<<<<<< HEAD
 Started GET "/articles/3" for 127.0.0.1 at 2018-07-01 17:49:11 -0300
 Processing by ArticlesController#show as HTML
@@ -14961,6 +15392,7 @@ Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 16:56:53 -0300
 Processing by ArticlesController#index as HTML
   Rendering articles/index.html.erb within layouts/application
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
   ↳ app/views/articles/index.html.erb:16
   Rendered articles/index.html.erb within layouts/application (6.8ms)
@@ -14968,7 +15400,10 @@ Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:56:53 -0300
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
   
@@ -15000,10 +15435,13 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 17:49:11 -0300
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/articles/new" for 127.0.0.1 at 2018-07-01 16:56:59 -0300
 Processing by ArticlesController#new as HTML
   Rendering articles/new.html.erb within layouts/application
@@ -15032,7 +15470,10 @@ Completed 200 OK in 89ms (Views: 71.6ms | ActiveRecord: 0.4ms)
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:57:05 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -15061,6 +15502,8 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/articles/3" for 127.0.0.1 at 2018-07-01 17:49:23 -0300
 Processing by ArticlesController#show as HTML
@@ -15105,6 +15548,7 @@ Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 17:49:34 -0
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
   
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started POST "/articles" for 127.0.0.1 at 2018-07-01 16:57:16 -0300
 Processing by ArticlesController#create as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/YGn5xbKN/zA60hjumV/AmWlL/SKRl6FcONFvg3EOr/kdfYdMDynYdLaksu+zok3SNyVq8/+Cm4aEw3+GFdhYQ==", "article"=>{"title"=>"olar", "content"=>"aaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "tag_id"=>"1"}, "commit"=>"Create Article"}
@@ -15139,7 +15583,10 @@ ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/
   
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
@@ -15167,12 +15614,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:49:34 -0300
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
 =======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
@@ -15202,8 +15652,11 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:52:09 -0300
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/articles" for 127.0.0.1 at 2018-07-01 16:57:26 -0300
 Processing by ArticlesController#index as HTML
   Rendering articles/index.html.erb within layouts/application
@@ -15214,6 +15667,8 @@ Completed 200 OK in 93ms (Views: 90.9ms | ActiveRecord: 0.3ms)
 
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 16:57:26 -0300
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
@@ -15284,6 +15739,7 @@ Completed 200 OK in 73ms (Views: 65.9ms | ActiveRecord: 1.7ms)
 
 
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:52:11 -0300
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
   
@@ -15314,8 +15770,11 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 17:52:11 -0300
 =======
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
 Started GET "/articles/2" for 127.0.0.1 at 2018-07-01 16:58:01 -0300
 Processing by ArticlesController#show as HTML
   Parameters: {"id"=>"2"}
@@ -15329,7 +15788,10 @@ Completed 200 OK in 75ms (Views: 72.1ms | ActiveRecord: 0.4ms)
 
 
 Started GET "/images/medium/missing.png" for 127.0.0.1 at 2018-07-01 16:58:01 -0300
+<<<<<<< HEAD
+=======
 >>>>>>> cf41f8550d21eb70a12385698c09168c250fc5c2
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
   
 ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
   
@@ -15360,6 +15822,622 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-07-01 16:58:46 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:01:16 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:03:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.4ms)
+Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:04:04 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:04:40 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 99ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:06:20 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:08:34 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2897ms (Views: 2895.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:08:51 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 2514ms (Views: 2512.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:10:20 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 2457ms (Views: 2455.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:10:58 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2513ms (Views: 2511.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:11:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2423ms (Views: 2420.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:14:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2484ms (Views: 2482.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:15:24 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 2364ms (Views: 2360.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:15:51 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:15:54 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:16:08 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 2775ms (Views: 2773.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:16:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 2481ms (Views: 2478.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:17:19 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 92ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:17:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 96ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:23:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:25:13 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 3317ms (Views: 3316.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:25:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2427ms (Views: 2422.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:26:08 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 2433ms (Views: 2431.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:26:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2509ms (Views: 2507.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:27:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:27:43 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:28:39 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2404ms (Views: 2400.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:29:13 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 89ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:29:58 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:31:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 154ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:31:17 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:31:23 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:32 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:38 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:38 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 89ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:38 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 119ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:32:38 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 97ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:33:17 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:33:50 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 3432ms (Views: 3429.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:34:11 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 2428ms (Views: 2423.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:34:40 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 2782ms (Views: 2780.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:34:54 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2352ms (Views: 2347.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:35:28 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2713ms (Views: 2709.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:35:41 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 2242ms (Views: 2239.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:37:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2289ms (Views: 2287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:37:50 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:38:13 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2408ms (Views: 2405.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:38:22 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2363ms (Views: 2362.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:38:49 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 2397ms (Views: 2392.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:38:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2234ms (Views: 2231.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:39:32 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 2361ms (Views: 2358.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:40:00 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 112ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:40:56 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 2404ms (Views: 2401.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:41:31 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2328ms (Views: 2326.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:42:24 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 92ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:46:21 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2354ms (Views: 2351.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:55:32 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 494ms (Views: 485.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:57:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3021ms (Views: 3019.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:57:33 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2527ms (Views: 2524.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 17:57:42 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 2483ms (Views: 2481.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:06:10 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.5ms)
+Completed 200 OK in 536ms (Views: 527.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:07:45 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 122ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:07:49 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:08:00 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:08:55 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 2961ms (Views: 2960.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:09:40 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.5ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:10:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 18:11:54 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (53.6ms)
+Completed 200 OK in 141ms (Views: 130.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 18:11:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 18:11:55 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 18:12:50 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 471ms (Views: 453.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 18:12:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/parallax.js-1.5.0"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+=======
 <<<<<<< HEAD
 Started GET "/app/assets/javascripts/parallax.js-1.5.0" for 127.0.0.1 at 2018-07-01 17:52:14 -0300
   
@@ -24515,6 +25593,425 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 1727ms (Views: 1720.9ms | ActiveRecord: 0.8ms)
 
 
+>>>>>>> 6fb903353a4bdb2adeeb0a08111c78f04d50f711
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:17:05 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+:
+
+Started POST "/__better_errors/643c4a2b31aa1ddc/variables" for 127.0.0.1 at 2018-07-01 21:17:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20180701181932)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20180701181932_devise_create_users.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20180701181932_devise_create_users.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20180701181932_devise_create_users.rb:39
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20180701181932_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180701181932"]]
+  ↳ bin/rails:9
+  [1m[35m (20.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddMoreOneFieldToArticle (20180701190339)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "articles" ADD "user_id" integer[0m
+  ↳ db/migrate/20180701190339_add_more_one_field_to_article.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_articles_on_user_id" ON "articles" ("user_id")[0m
+  ↳ db/migrate/20180701190339_add_more_one_field_to_article.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180701190339"]]
+  ↳ bin/rails:9
+  [1m[35m (19.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddFieldAuthorToArticle (20180701221903)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "articles" ADD "author" varchar[0m
+  ↳ db/migrate/20180701221903_add_field_author_to_article.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180701221903"]]
+  ↳ bin/rails:9
+  [1m[35m (14.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:17:32 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 12337ms (Views: 12325.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:19:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:19:41 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 21:19:58 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (12.4ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/user" for 127.0.0.1 at 2018-07-01 21:20:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/rails/user"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/rails/user/sign_in" for 127.0.0.1 at 2018-07-01 21:20:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/rails/user/sign_in"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-07-01 21:20:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:20:36 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 119ms (Views: 98.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:21:31 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 446ms (Views: 415.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:22:27 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:22:27 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 122ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:22:33 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:22:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (0.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 21:22:40 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (13.1ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:23:30 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:23:30 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 75ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-07-01 21:23:33 -0300
+Processing by ArticlesController#new as HTML
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:23:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 21:23:45 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (13.3ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:23:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:23:53 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:24:13 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:24:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 69ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:25:39 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/registrations/new.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_70238025323220'
+  app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_70238025323220'
+
+Started POST "/__better_errors/daf3211e10f416b7/variables" for 127.0.0.1 at 2018-07-01 21:25:39 -0300
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:25:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 82ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:27:42 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/registrations/new.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_48986500'
+  app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_48986500'
+
+Started POST "/__better_errors/e3b56e5d5db291d6/variables" for 127.0.0.1 at 2018-07-01 21:27:42 -0300
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:27:43 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:28:51 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:28:51 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 124ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:29:02 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3m73dOOx9I2Lzvzv6AzE/uPukDzCgbCHpAXq9Vw/p+WQ3aRJUXcRa8cNN1XohD0RM0IF0VS3vCaTPIukDrS7Vw==", "user"=>{"email"=>"aaa@aaa", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaa@aaa"], ["LIMIT", 1]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3m73dOOx9I2Lzvzv6AzE/uPukDzCgbCHpAXq9Vw/p+WQ3aRJUXcRa8cNN1XohD0RM0IF0VS3vCaTPIukDrS7Vw==", "user"=>{"email"=>"aaa@aaa", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 231ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:29:06 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/registrations/new.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_70238024997120'
+  app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_70238024997120'
+
+Started POST "/__better_errors/5444034faa3d5015/variables" for 127.0.0.1 at 2018-07-01 21:29:06 -0300
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-01 21:29:55 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 124ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:30:08 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/registrations/new.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_70238073823420'
+  app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_70238073823420'
+
+Started POST "/__better_errors/4ddf290d1835f899/variables" for 127.0.0.1 at 2018-07-01 21:30:08 -0300
+Started POST "/__better_errors/4ddf290d1835f899/variables" for 127.0.0.1 at 2018-07-01 21:34:31 -0300
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:35:24 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/registrations/new.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+
+<<<<<<< HEAD
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_70238070290400'
+  app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_70238070290400'
+
+Started POST "/__better_errors/eaaa230deb97945d/variables" for 127.0.0.1 at 2018-07-01 21:35:24 -0300
+=======
 Started GET "/" for 127.0.0.1 at 2018-07-01 21:27:36 -0300
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
@@ -24581,6 +26078,1050 @@ Processing by ArticlesController#show as HTML
   Rendering articles/show.html.erb within layouts/application
   Rendered articles/show.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 1930ms (Views: 1912.6ms | ActiveRecord: 1.8ms)
+
+
+>>>>>>> 040c5fa43b9d5009c4765bad927530d26d4a8890
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-07-01 21:41:38 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/registrations/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 5485ms (Views: 5451.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-07-01 21:41:54 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vmv9prAhEq2EivFm2k4rkKjcLmee993s9b70ICZH5xoY2K6bAuf3S8hJOtzaxtJ/eHC7igjB0U3Ch5VxdMz7qA==", "user"=>{"email"=>"aaa@aaa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaa@aaa"], ["LIMIT", 1]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.3ms)
+  Rendered users/registrations/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 270ms (Views: 99.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-07-01 21:42:02 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1UvgRsQaNeX700fVudQKxCfH1vS2bbl7V+Y8FG5f3omb+LN7dtzQA7cQjG+5XPMr92tDGSBbtdpg311FPNTCOw==", "user"=>{"email"=>"aaa@aaa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaa@aaa"], ["LIMIT", 1]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "aaa@aaa"], ["encrypted_password", "$2a$11$15CqIa.cfE8aTZmBLbb89OMecpNEwt5UHQSHhL4wG.SXbb/R05CtK"], ["created_at", "2018-07-02 00:42:02.252632"], ["updated_at", "2018-07-02 00:42:02.252632"]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (16.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-07-02 00:42:02.276531"], ["last_sign_in_at", "2018-07-02 00:42:02.276531"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2018-07-02 00:42:02.277185"], ["id", 1]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 203ms (ActiveRecord: 30.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:42:02 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 111ms (Views: 98.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-07-01 21:42:24 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-01 21:42:30 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (12.6ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/feo/.rvm/gems/ruby-2.3.1/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2018-07-01 21:43:05 -0300
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:15
+  Rendered tags/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2018-07-01 21:43:59 -0300
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:15
+  Rendered tags/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2018-07-01 21:44:01 -0300
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.9ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:15
+  Rendered tags/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:44:04 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:45:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:45:21 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:36:51 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 575ms (Views: 563.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:41:23 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 154ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:41:26 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 97ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:41:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:41:37 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 84ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 10:41:46 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:41:46 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 106ms (Views: 85.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 116ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:23 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (0.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 118ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 125ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:41 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 114ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:53 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 106ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:42:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:43:05 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 113ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:43:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 89ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:44:52 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 10:45:03 -0300
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:45:03 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.9ms)
+  Rendered users/sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 10:45:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (3.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 149ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-07-02 10:45:49 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-07-02 10:46:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 495ms (Views: 487.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 10:59:12 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/perfil/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 10:59:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/perfil/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:05:22 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 769ms (Views: 758.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:05:37 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:06:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:06:27 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:07:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:09:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3301ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( perfil.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2803014361986731144_70095577630700'
+
+Started POST "/__better_errors/dd4716857a1aa5d6/variables" for 127.0.0.1 at 2018-07-02 11:09:09 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:09:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( perfil.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2803014361986731144_70095512051340'
+
+Started POST "/__better_errors/6f2c4fe594e57207/variables" for 127.0.0.1 at 2018-07-02 11:09:29 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:09:43 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 554ms (Views: 543.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:10:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2958ms (Views: 2956.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:12:25 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 3369ms (Views: 3367.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:12:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2346ms (Views: 2345.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3164ms (Views: 3162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:18 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 143ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:31 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 143ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 81ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:13:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2301ms (Views: 2300.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:14:18 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2646ms (Views: 2644.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:17:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 116ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:17:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:19:15 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 2517ms (Views: 2512.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:19:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 3813ms (Views: 3807.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:22:22 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 83ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:22:31 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:23:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2454ms (Views: 2449.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:23:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2187ms (Views: 2185.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:24:07 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 2186ms (Views: 2184.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:24:46 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2250ms (Views: 2249.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:25:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:25:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 84ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:25:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:25:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:29:38 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 83ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:32:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2232ms (Views: 2229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:34:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2246ms (Views: 2244.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:34:45 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2250ms (Views: 2249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:35:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2300ms (Views: 2297.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:35:11 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2330ms (Views: 2327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:36:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:36:46 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:36:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:37:19 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:37:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:38:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 99ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:38:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:39:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:39:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:40:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2402ms (Views: 2399.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:41:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2424ms (Views: 2418.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:41:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2356ms (Views: 2352.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:41:20 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2252ms (Views: 2249.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:42:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2208ms (Views: 2206.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:42:35 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2320ms (Views: 2318.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:42:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2334ms (Views: 2333.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 11:47:50 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:52:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2501ms (Views: 2492.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:52:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2285ms (Views: 2284.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:52:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2349ms (Views: 2343.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:52:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 97ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:52:53 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:53:34 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2236ms (Views: 2234.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:54:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 103ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:54:38 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2729ms (Views: 2726.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:54:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 184ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:55:02 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2430ms (Views: 2425.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:55:18 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2329ms (Views: 2327.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 11:55:51 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 69ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:58:30 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2344ms (Views: 2341.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:58:46 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2294ms (Views: 2292.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:59:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 90ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 11:59:38 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2321ms (Views: 2317.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 12:00:59 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:01:26 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 201ms (Views: 196.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:01:42 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2398ms (Views: 2397.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:02:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2321ms (Views: 2319.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:04:14 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2530ms (Views: 2528.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:05:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 2766ms (Views: 2762.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:06:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2382ms (Views: 2381.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:08:35 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 2449ms (Views: 2444.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:09:14 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 105ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:09:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2401ms (Views: 2399.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:10:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2252ms (Views: 2250.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:11:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2604ms (Views: 2600.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:11:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 91ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:13:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2377ms (Views: 2375.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:14:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2458ms (Views: 2455.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:14:13 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2418ms (Views: 2416.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:14:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2389ms (Views: 2387.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:14:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2488ms (Views: 2482.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:15:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2318ms (Views: 2317.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:15:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2495ms (Views: 2492.7ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 21:40:40 -0300

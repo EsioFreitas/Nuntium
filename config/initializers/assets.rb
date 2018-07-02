@@ -16,4 +16,8 @@ Rails.application.config.assets.precompile += %w( articles.css )
 Rails.application.config.assets.precompile += %w( home.css )
 Rails.application.config.assets.precompile += %w( tags.css )
 Rails.application.config.assets.precompile += %w( scaffolds.css )
+<<<<<<< HEAD
 Rails.application.config.assets.precompile += %w( application.js )
+=======
+Rails.application.config.assets.precompile += %w( perfil.css )
+>>>>>>> 4ad71d106402eaabb8b3d9fff93f68fd3b1dddb8
