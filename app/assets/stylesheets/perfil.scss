@@ -11,6 +11,7 @@
 
 #FotoDescricao {
     width: 24em;
+    height: 100%;
     align-content: center;
     margin-left: 3em;
     margin-right: 3em;
@@ -22,6 +23,8 @@
     width: 22em;
     height: 30em;
     object-fit: cover;
+    filter: grayscale(100%);
+    margin-bottom: 3em;
 }
 
 #NomeTexto {
@@ -43,6 +46,8 @@
 #ArtigoPublicado {
     width: 20em;
     height: 20em;
+    margin: 1em;
+    margin-bottom: 6em;
 }
 
 #ImagemArtigoPublicado {
@@ -50,3 +55,21 @@
     height: 100%;
     object-fit: cover;
 }
+
+#ArticleOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+ }
+ 
+ #ArtigoPublicado:hover #ArticleOverlay {
+    opacity: 0.6;
+ } 
+ 

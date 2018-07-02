@@ -28963,3 +28963,210 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:23:14 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3145.4ms)
+Completed 200 OK in 3264ms (Views: 3253.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:24:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2453ms (Views: 2450.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:24:26 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2389ms (Views: 2385.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2378ms (Views: 2376.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2389ms (Views: 2387.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:46 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2392ms (Views: 2388.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:02 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 2497ms (Views: 2495.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:11 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2261ms (Views: 2259.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2439ms (Views: 2436.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2306ms (Views: 2304.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:29:27 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 2301ms (Views: 2299.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:30:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 2249ms (Views: 2248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:31:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2779ms (Views: 2778.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:37:54 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2161ms (Views: 2160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:38:39 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 2183ms (Views: 2181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:39:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:06 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 113ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 109ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:53 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 101ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 93ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:42:53 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (2.4ms)
+Completed 200 OK in 511ms (Views: 502.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:43:33 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 74ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:43:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:44:04 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (5.4ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:45:21 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:45:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2839ms (Views: 2837.5ms | ActiveRecord: 0.0ms)
+
+
