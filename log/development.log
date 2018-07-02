@@ -29925,3 +29925,47 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:36:35 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (401.1ms)
+Completed 200 OK in 552ms (Views: 541.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:36:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 133ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:36:45 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:37:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:38:37 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2806ms (Views: 2804.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:38:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2400ms (Views: 2396.7ms | ActiveRecord: 0.0ms)
+
+
