@@ -10,10 +10,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https:S//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <%= stylesheet_link_tag "articles" %>
     <%= stylesheet_link_tag "home" %>
     <%= stylesheet_link_tag "perfil" %>
+    <%= stylesheet_link_tag "tags" %>
+
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application' %>
@@ -53,9 +55,7 @@
     </div>
   </nav>
 
-
-
-  <body class="font"> 
+  <body class="font back">
     <%= yield %>
   </body>
 </html>

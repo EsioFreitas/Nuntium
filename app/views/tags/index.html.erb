@@ -13,6 +13,7 @@
   </thead>
   <tbody>
     <% @tags.each do |tag| %>
+      
       <tr>
         <td><%= link_to tag.id, tag_path(tag) %></td>
         <td><%= tag.name %></td>
