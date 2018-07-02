@@ -8,6 +8,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "T" %></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "home" %>
+    <%= stylesheet_link_tag "application" %>
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 
@@ -36,7 +37,7 @@
   <body>
 
   <% #Navbar %> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light espaco">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -94,7 +95,7 @@
       <div id = "SmallTrendingArea">
 
         <div id = "SmallTrending">
-
+          
           <div class="card bg-dark text-white">
             <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
             <div class="card-img-overlay" id ="CardOverlay">

@@ -3,13 +3,32 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import " bootstrap ";
 
-text {
-    color: red;
+.content {
+    color: black;
     font-size: 1.5em;
-    line-height: 3.5rem;
-    text-align: justify;
+    line-height: 2.5rem;
+    text-align: justify !important;
+    margin-bottom: 2rem;
 }
 
 .date{
     font-size: 1.5em;
+    margin-bottom: 2rem;
 }
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3em;
+    
+}
+
+.img{
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: 30rem;
+}
+

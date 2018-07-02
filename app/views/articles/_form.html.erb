@@ -1,5 +1,5 @@
 <%= form_for @article, html: { multipart: true }, :html => { :class => "form-horizontal article" } do |f| %>
-
+<div class="text row" >
   <% if @article.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
       <div class="panel-heading">
@@ -7,7 +7,7 @@
       </div>
       <div class="panel-body">
         <ul>
-        <% @article.errors.full_messages.each do |msg| %>
+          <% @article.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
         <% end %>
         </ul>
@@ -15,43 +15,48 @@
     </div>
   <% end %>
 
-  <div class="form-group">
-    <%= f.label :title, :class => 'control-label col-lg-2' %>
+  <div class="form-group col-lg-12">
+    <%= f.label :title, :class => 'control-label col-lg-2 font-weight-bold' %>
     <div class="col-lg-10">
       <%= f.text_field :title, :class => 'form-control' %>
     </div>
     <%=f.error_span(:title) %>
   </div>
-  <div class="form-group">
-    <%= f.label :content, :class => 'control-label col-lg-2' %>
+
+  <div class="form-group col-lg-12">
+    <%= f.label :content, :class => 'control-label col-lg-2 font-weight-bold' %>
     <div class="col-lg-10">
-      <%= f.text_area :content, :class => 'form-control', size: "60x12" %>
+      <%= f.text_area :content, :class => 'form-control', size: "60x6" %>
     </div>
     <%=f.error_span(:content) %>
   </div>
 
-  <div class="form-group">
-    <%= f.label :tag, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
+  <div class="form-group col-lg-12">
+    <%= f.label :tag, :class => 'control-label col-lg-2 font-weight-bold' %>
+    <div class="col-lg-12">
     <%= f.collection_select(:tag_id, @tags, :id, :name, include_blank: true) %>
     </div>
     <%=f.error_span(:tag) %>
   </div>
 
-  <div class="form-group">
-    <%= f.label :photo, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-    <%= f.file_field :photo %>
+  <div class="form-group col-lg-6">
+    <%= f.label :photo, :class => 'control-label col-lg-2 font-weight-bold' %>
+    <div class="col-lg-12">
+      <%= f.file_field :photo, class: " " %>
     </div>
     <%=f.error_span(:photo) %>
   </div>
 
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-      <%= f.submit nil, :class => 'btn btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                articles_path, :class => 'btn btn-default' %>
+  <div class="col-lg-6 down">
+    <div class=" margin-left">
+    <div class="row">
+      <%= f.submit nil, :class => 'btn btn-outline-dark col' %>
+            <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                      articles_path, :class => 'btn btn-outline-danger col marg' %>
+    </div>
     </div>
   </div>
+</div>
+
 
 <% end %>
