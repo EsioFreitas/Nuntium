@@ -2,9 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import " bootstrap ";
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-art {
+text {
     color: red;
     font-size: 1.5em;
     line-height: 3.5rem;
@@ -13,16 +12,4 @@ art {
 
 .date{
     font-size: 1.5em;
-}
-
-.show-article{
-}
-
-.photo{
-    
-}
-
- 
-.font {
-    font-family: 'Montserrat', sans-serif; 
 }
