@@ -37581,6 +37581,7 @@ Completed 200 OK in 16084ms (Views: 15060.9ms | ActiveRecord: 573.7ms)
 Completed 200 OK in 6420ms (Views: 6224.5ms | ActiveRecord: 33.0ms)
 
 
+<<<<<<< HEAD
 Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 15:24:15 -0300
 Processing by TagsController#show as HTML
   Parameters: {"id"=>"1"}
@@ -37668,3 +37669,2434 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+=======
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:55:58 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3271.9ms)
+Completed 200 OK in 3453ms (Views: 3442.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:57:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 2254ms (Views: 2251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:58:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2545ms (Views: 2542.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2504ms (Views: 2501.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2232ms (Views: 2231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2323ms (Views: 2320.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:00:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2232ms (Views: 2230.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:00:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 2404ms (Views: 2399.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2293ms (Views: 2289.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:13 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2324ms (Views: 2321.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 105ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:08:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2490ms (Views: 2486.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2389ms (Views: 2386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2117ms (Views: 2115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2593ms (Views: 2591.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:55 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2273ms (Views: 2270.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:11:40 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2213ms (Views: 2207.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:11:55 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2261ms (Views: 2259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:12:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2304ms (Views: 2302.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:12:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 2378ms (Views: 2374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2282ms (Views: 2278.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:38 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was "#":
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___3704881814487768432_70240559997340'
+
+Started POST "/__better_errors/2ce0d79b5b6b70b5/variables" for 127.0.0.1 at 2018-07-02 13:13:39 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 2496ms (Views: 2493.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2287ms (Views: 2285.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2376ms (Views: 2374.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:27 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2299ms (Views: 2297.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2485ms (Views: 2480.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:15:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 149ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:16:34 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2480ms (Views: 2476.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:17:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2621ms (Views: 2610.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:17:31 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 2412ms (Views: 2406.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:18:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/b0d39b39f7bceafc/variables" for 127.0.0.1 at 2018-07-02 13:18:32 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:19:45 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/9d39adf3460cfb59/variables" for 127.0.0.1 at 2018-07-02 13:19:46 -0300
+Started GET "/" for 127.0.0.1 at 2018-07-02 13:22:03 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.5ms)
+Completed 200 OK in 551ms (Views: 541.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:22:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/63ccda65ac8b7eea/variables" for 127.0.0.1 at 2018-07-02 13:22:12 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:22:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:23:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 3027ms (Views: 3023.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:23:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 2440ms (Views: 2437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:24:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2433ms (Views: 2431.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:25:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2417ms (Views: 2415.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:25:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2465ms (Views: 2463.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2435ms (Views: 2433.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:25 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 2414ms (Views: 2410.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:27:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 100ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:27:42 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 99ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:37 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2336ms (Views: 2328.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2365ms (Views: 2362.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 115ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 14:27:17 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 841ms (Views: 826.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:27:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 153ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:28:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2950ms (Views: 2948.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:28:35 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:29:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2376ms (Views: 2375.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:30:40 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2245ms (Views: 2243.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:30:54 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2284ms (Views: 2282.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:31:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2136ms (Views: 2133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:31:26 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2301ms (Views: 2300.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:35:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:36:53 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 2217ms (Views: 2215.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:37:43 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2334ms (Views: 2330.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:37:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2238ms (Views: 2236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:38:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2393ms (Views: 2388.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:40:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2318ms (Views: 2316.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:41:18 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2354ms (Views: 2352.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:41:34 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2248ms (Views: 2246.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:41:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2449ms (Views: 2444.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:42:30 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2252ms (Views: 2250.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:43:28 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2372ms (Views: 2371.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:44:11 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2206ms (Views: 2203.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:44:40 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2412ms (Views: 2409.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:45:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2244ms (Views: 2243.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:46:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2369ms (Views: 2368.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:46:25 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2250ms (Views: 2247.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:46:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2394ms (Views: 2389.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:46:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 120ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:47:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2268ms (Views: 2265.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:47:14 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2394ms (Views: 2392.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:48:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 225ms (Views: 221.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:49:02 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 79ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:49:20 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 88ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:49:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2152ms (Views: 2151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:50:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 192ms (Views: 190.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:50:57 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:51:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:52:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 2537ms (Views: 2534.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:53:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2234ms (Views: 2232.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:53:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2368ms (Views: 2365.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:54:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 2283ms (Views: 2282.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:54:39 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2420ms (Views: 2417.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:54:54 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 2255ms (Views: 2253.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:56:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2376ms (Views: 2374.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:56:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2140ms (Views: 2139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:56:30 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2428ms (Views: 2425.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:57:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2319ms (Views: 2316.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:57:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2420ms (Views: 2417.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:57:35 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2339ms (Views: 2336.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:57:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2466ms (Views: 2461.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:58:22 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2247ms (Views: 2245.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:58:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2233ms (Views: 2231.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:58:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2315ms (Views: 2312.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:59:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2348ms (Views: 2344.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 14:59:37 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 2290ms (Views: 2286.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:00:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2335ms (Views: 2332.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:00:20 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2241ms (Views: 2238.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:00:42 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2204ms (Views: 2200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:01:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:01:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:01:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:03:22 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:03:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:04:02 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 60ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:04:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 2257ms (Views: 2254.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:05:15 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2452ms (Views: 2450.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:05:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 103ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:07:02 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 91ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:07:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:08:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2236ms (Views: 2229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:08:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 99ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:15:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 2375ms (Views: 2373.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:15:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 92ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:15:55 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2201ms (Views: 2197.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:16:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 89ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:16:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:17:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:18:40 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2367ms (Views: 2365.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:19:11 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:19:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:19:45 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.3ms)
+Completed 200 OK in 74ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:20:17 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.4ms)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:23:14 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3145.4ms)
+Completed 200 OK in 3264ms (Views: 3253.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:24:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2453ms (Views: 2450.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:24:26 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2389ms (Views: 2385.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2378ms (Views: 2376.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2389ms (Views: 2387.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:26:46 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2392ms (Views: 2388.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:02 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 2497ms (Views: 2495.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:11 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 2261ms (Views: 2259.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:23 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2439ms (Views: 2436.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:27:50 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2306ms (Views: 2304.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:29:27 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 2301ms (Views: 2299.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:30:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 2249ms (Views: 2248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:31:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2779ms (Views: 2778.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:37:54 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2161ms (Views: 2160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:38:39 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 2183ms (Views: 2181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:39:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:06 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 113ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:40:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 109ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:53 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 101ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:41:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 93ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:42:53 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (2.4ms)
+Completed 200 OK in 511ms (Views: 502.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:43:33 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 74ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:43:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:44:04 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (5.4ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:45:21 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 15:45:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2839ms (Views: 2837.5ms | ActiveRecord: 0.0ms)
+
+
+>>>>>>> ab3af0f0cd4fb2eb43f2df1642dca48c8920e3f9
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 15:54:40 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (26.3ms)
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 15:54:44 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 7668ms (Views: 7631.1ms | ActiveRecord: 1.4ms)
+
+
+Completed 200 OK in 3862ms (Views: 3857.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-02 15:54:58 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered articles/show.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 97ms (Views: 87.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 15:55:08 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 179ms (Views: 163.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-02 15:58:41 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 440ms (Views: 394.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-02 15:58:47 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered articles/show.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 122ms (Views: 108.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 15:59:30 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.9ms)
+Completed 200 OK in 152ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2018-07-02 15:59:36 -0300
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:15
+  Rendered tags/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 93ms (Views: 91.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:01:35 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:18
+  Rendered tags/show.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 116ms (Views: 110.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:01:51 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:18
+  Rendered tags/show.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 143ms (Views: 130.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:02:39 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:18
+  Rendered tags/show.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 148ms (Views: 141.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:03:19 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 98ms (Views: 93.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/1/edit" for 127.0.0.1 at 2018-07-02 16:03:31 -0300
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/edit.html.erb within layouts/application
+  Rendered tags/_form.html.erb (194.0ms)
+  Rendered tags/edit.html.erb within layouts/application (253.1ms)
+Completed 200 OK in 385ms (Views: 362.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:03:33 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 137ms (Views: 122.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:05:20 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 2375ms (Views: 2369.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:06:23 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 3796ms (Views: 3784.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:06:38 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 1948ms (Views: 1934.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:07:02 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 1844ms (Views: 1840.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:07:14 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 1733ms (Views: 1726.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:07:28 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 139ms (Views: 120.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:07:38 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:19
+  Rendered tags/show.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 1794ms (Views: 1789.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:08:34 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:18
+  Rendered tags/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:08:44 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  Rendered tags/show.html.erb within layouts/application (360.9ms)
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.2ms)
+
+
+
+NameError - undefined local variable or method `model_class' for #<#<Class:0x007ff0a003c788>:0x007ff0abe49488>
+Did you mean?  dom_class:
+  app/views/tags/show.html.erb:4:in `_app_views_tags_show_html_erb__1459226290109393377_70335826382640'
+
+Started POST "/__better_errors/65b569cfc217a7a2/variables" for 127.0.0.1 at 2018-07-02 16:08:44 -0300
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:08:53 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 130ms (Views: 126.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:10:03 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 152ms (Views: 140.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:10:31 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 153ms (Views: 142.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:10:40 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 137ms (Views: 126.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:11:33 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 104ms (Views: 95.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:12:18 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1794ms (Views: 1785.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 16:13:03 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 76ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:13:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 159ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:14:45 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 120ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:15:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 138ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2018-07-02 16:15:22 -0300
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:15
+  Rendered tags/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 135ms (Views: 127.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:15:24 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 112ms (Views: 102.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:15:57 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 156ms (Views: 146.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:16:04 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 127ms (Views: 120.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:16:13 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 98ms (Views: 85.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tags/1" for 127.0.0.1 at 2018-07-02 16:16:25 -0300
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:67
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:15
+  Rendered tags/show.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 1837ms (Views: 1824.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:17:59 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb___1376369565217318555_70335822008660'
+
+Started POST "/__better_errors/94fd6fc5d71ef333/variables" for 127.0.0.1 at 2018-07-02 16:17:59 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:18:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb___1376369565217318555_70335813109220'
+
+Started POST "/__better_errors/e7207892e2893904/variables" for 127.0.0.1 at 2018-07-02 16:18:36 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:20:05 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb___1376369565217318555_70335896871700'
+
+Started POST "/__better_errors/a5cac7c7fef88b59/variables" for 127.0.0.1 at 2018-07-02 16:20:06 -0300
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:20:21 -0300
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/961752d24d35fcdb/variables" for 127.0.0.1 at 2018-07-02 16:20:21 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:20:34 -0300
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/fd181b2f059ab267/variables" for 127.0.0.1 at 2018-07-02 16:20:35 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:20:42 -0300
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for #<Class:0x00000003849358>:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/ec320716ff46a373/variables" for 127.0.0.1 at 2018-07-02 16:20:42 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:20:49 -0300
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `article' for #<Class:0x007ff0aa22a658>:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/c9f20bab63817fac/variables" for 127.0.0.1 at 2018-07-02 16:20:50 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:24:20 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `article' for #<Class:0x00000005053d40>:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/4d7d944e2089479e/variables" for 127.0.0.1 at 2018-07-02 16:24:21 -0300
+Started GET "/users/3" for 127.0.0.1 at 2018-07-02 16:25:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-07-02 16:53:07 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (12.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:58:33 -0300
+Processing by PerfilController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `article' for #<Class:0x007f68201bdb10>:
+  app/controllers/perfil_controller.rb:3:in `index'
+
+Started POST "/__better_errors/948ac1755cb43a3a/variables" for 127.0.0.1 at 2018-07-02 16:58:33 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:59:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2574.3ms)
+Completed 500 Internal Server Error in 2579ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `articles' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_60118360'
+
+Started POST "/__better_errors/ef06e2e746eb69a0/variables" for 127.0.0.1 at 2018-07-02 16:59:20 -0300
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 16:59:39 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (17.7ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `article' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_70042685172820'
+
+Started POST "/__better_errors/6d4c60765fe5d2aa/variables" for 127.0.0.1 at 2018-07-02 16:59:39 -0300
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:00:06 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_70042687669940'
+
+Started POST "/__better_errors/dca26c5aaefde33f/variables" for 127.0.0.1 at 2018-07-02 17:00:06 -0300
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:00:58 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.0ms)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_70042685715140'
+
+Started POST "/__better_errors/73b8c45105409ab9/variables" for 127.0.0.1 at 2018-07-02 17:00:58 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:01:14 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (40.8ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.7ms)
+
+
+
+NoMethodError - undefined method `each' for #<User:0x007f682bec1360>:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_70042684562860'
+
+Started POST "/__better_errors/db401105e3c4ebc6/variables" for 127.0.0.1 at 2018-07-02 17:01:15 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:01:36 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms)
+
+
+
+NoMethodError - undefined method `article' for #<User:0x007f680407d078>
+Did you mean?  articles
+               articles=:
+  app/views/perfil/index.html.erb:18:in `_app_views_perfil_index_html_erb__3332782247301776041_70042682539040'
+
+Started POST "/__better_errors/c42e369be18cf437/variables" for 127.0.0.1 at 2018-07-02 17:01:36 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:01:41 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/perfil/index.html.erb:18
+  Rendered perfil/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 170ms (Views: 166.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/10" for 127.0.0.1 at 2018-07-02 17:02:01 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered articles/show.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 107ms (Views: 101.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:02:03 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/perfil/index.html.erb:18
+  Rendered perfil/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 84ms (Views: 82.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "//users/sign_in" for 127.0.0.1 at 2018-07-02 17:03:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 30ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 17:03:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 69ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-07-02 17:03:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-02 17:03:19 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-07-02 17:04:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:06:12 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (356.0ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 1.3ms)
+
+
+
+NameError - undefined local variable or method `user' for #<#<Class:0x007f682acd57c8>:0x007f682bee5a58>:
+  app/views/perfil/index.html.erb:3:in `_app_views_perfil_index_html_erb__3332782247301776041_70042695184960'
+
+Started POST "/__better_errors/ef7dfd4f8db05c25/variables" for 127.0.0.1 at 2018-07-02 17:06:13 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 17:11:57 -0300
+Processing by PerfilController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/perfil_controller.rb:3
+  Rendering perfil/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/perfil/index.html.erb:19
+  Rendered perfil/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 135ms (Views: 121.9ms | ActiveRecord: 2.4ms)
+
+

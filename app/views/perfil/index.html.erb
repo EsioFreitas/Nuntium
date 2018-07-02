@@ -1,5 +1,6 @@
 
     <div  id = "UserPage">
+    <%= link_to "sair", user_session_path %>
 
         <div id = "FotoDescricao">
             <%= image_tag "foto.jpg", id: "UserImage" %>
@@ -8,55 +9,28 @@
                 <h3>Nome</h3>
                 <h6 id = "DescricaoUser">Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h6>
             </div>
-            <div id = "VerticalLine"></div>
+
         </div>
 
-        <div>
-            <h1>Artigos Publicados</h1>
-            <hr></hr>
+        <div id = "aaaa">
+            <h1 style = "margin-left: 0.4em">Artigos Publicados</h1>
 
-            <div id = "Tabs">
-                <div class="card bg-dark text-white" id = "ArtigoPublicado">
-                    <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
-                    <div class="card-img-overlay" id ="ArticleOverlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
+            <div class="content-cards">
+            <% @perfil.articles.each do |article| %>
+            <%= link_to article_path(article) do %>
+            <div class="card bg-dark text-white" id = "ArtigosPublicado">
+                <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
+                <div class="card-img-overlay" id ="ArticleOverlay">
+                <h5 class="card-title"> <%#article.title %> </h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-
-                <div class="card bg-dark text-white" id = "ArtigoPublicado">
-                    <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
-                    <div class="card-img-overlay" id ="ArticleOverlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-
-                <div class="card bg-dark text-white" id = "ArtigoPublicado">
-                    <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
-                    <div class="card-img-overlay" id ="ArticleOverlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-
-                <div class="card bg-dark text-white" id = "ArtigoPublicado">
-                    <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
-                    <div class="card-img-overlay" id ="ArticleOverlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-
-                <div class="card bg-dark text-white" id = "ArtigoPublicado">
-                    <%= image_tag "foto.jpg", id: "ImagemArtigoPublicado" %>
-                    <div class="card-img-overlay" id ="ArticleOverlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-
+        s
+      </div>
+      <% end %>
+      
+      <% end %>
+  </div>
+ 
         </div>
 
     </div>
