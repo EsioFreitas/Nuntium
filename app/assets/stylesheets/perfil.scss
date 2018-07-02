@@ -34,8 +34,8 @@
 }
 
 #aaaa {
-    width: 80em;
-    margin-left: 30em;
+    width: 78.5%;
+    margin-left: 25%;
 }
 
 #Tabs {
@@ -49,6 +49,12 @@
     height: 20em;
     margin: 1em;
     margin-bottom: 6em;
+    position: relative;
+}
+
+#ArtigoPublicado:after {
+    display: block;
+    padding-bottom: 100%; 
 }
 
 
@@ -92,5 +98,6 @@
 
 #Botao {
     height: 2.5em;
+    margin: 1em;
 }
  

@@ -78,69 +78,29 @@
     </div>
 
     <% #Area What's New? %>
-    <div id = "Trending" style = "margin-bottom: 5em">
 
-      <% #Artigo Grande %>
-      <div id = "BigTrending" href = "articles/new">
-        <div class="card bg-dark text-white">
-          <%= image_tag "foto.jpg", id: "ImagemCard" %>
-
-          <div class="card-img-overlay " id ="CardOverlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
-          </div>
-        </div>
-      </div>
-
-      <% #Fim Artigo Grande %>
-
-      <% #Artigos Pequenos %>
+    <% #Artigos Pequenos %>
+    <div class="articles " id = "area1">
       <div id = "SmallTrendingArea">
-
-        <div id = "SmallTrending">
-          
-          <div class="card bg-dark text-white">
-            <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
+        <% @home.each do |article| %>
+        <%= link_to article_path(article) do %>
+        <div class="card bg-dark text-white ">
+          <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
             <div class="card-img-overlay" id ="CardOverlay">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
-          </div>
-
         </div>
 
-        <div id = "SmallTrending">
-
-          <div class="card bg-dark text-white">
-            <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-            <div class="card-img-overlay" id ="CardOverlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div id = "SmallTrending">
-
-          <div class="card bg-dark text-white">
-            <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-            <div class="card-img-overlay" id ="CardOverlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      <% #Fim Artigos Pequenos %>
-
+      <% end %>
+      <% end %> 
     </div>
-    <% #Fim Area What's New? %>
 
-    <div>
+        
+    
+
+    
+    <div class = "row ">
       <h3>Tags</h3>
       <hr></hr>
     </div>
