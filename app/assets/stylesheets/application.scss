@@ -11,8 +11,8 @@
  * It is generally better to create a new file per style scope.
  */
 
- @import " bootstrap ";
- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+ $import: "bootstrap";
+ $import: url('https://fonts.googleapis.com/css?family=Montserrat');
 
  .text{
     font-family: 'Montserrat', sans-serif; 
@@ -45,5 +45,3 @@
  .down{
      margin-top: 2rem;
  }
- 
- 

@@ -19,3 +19,4 @@
 //= require popper
 //= require bootstrap-sprockets
 // = requer jquery_ujs
+
