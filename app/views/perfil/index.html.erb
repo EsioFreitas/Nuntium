@@ -1,7 +1,7 @@
 
     <div  id = "UserPage">
-    <%= link_to "sair", destroy_user_session_path %>
-
+    <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+    
         <div id = "FotoDescricao">
             <%= image_tag "foto.jpg", id: "UserImage" %>
 
