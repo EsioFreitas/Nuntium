@@ -10,7 +10,7 @@
 }
 
 #FotoDescricao {
-    width: 24em;
+    width: 21.5%;
     height: 100%;
     align-content: center;
     margin-left: 3em;
@@ -20,15 +20,16 @@
 }
 
 #UserImage {
-    width: 22em;
-    height: 30em;
+    width: 90%;
+    height: 50%;
     object-fit: cover;
     filter: grayscale(100%);
-    margin-bottom: 3em;
+    margin-bottom: 5%;
 }
 
 #NomeTexto {
-    width: 22em;
+    width: 90%;
+    height: 40%;
     word-break: break-all;
 }
 
@@ -67,9 +68,28 @@
     opacity: 0;
     transition: .5s ease;
     background-color: black;
- }
+}
  
- #ArtigoPublicado:hover #ArticleOverlay {
+#ArtigoPublicado:hover #ArticleOverlay {
     opacity: 0.6;
- } 
+} 
+
+#BotoesArtigo {
+    width: 17.5em;
+    height: 7em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+}
+
+#BotoesPerfil {
+    display: flex;
+    height: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#Botao {
+    height: 2.5em;
+}
  
