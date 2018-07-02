@@ -1,9 +1,11 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import " bootstrap ";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 art {
-    color: #0B0704;
-    font-family: 'Noto Serif', serif;
+    color: red;
     font-size: 1.5em;
     line-height: 3.5rem;
     text-align: justify;
@@ -20,10 +22,7 @@ art {
     
 }
 
-
-#parallaxBar{
-    height:750px;
-    background-color:#004c82;
-    background: url(../img/bgparallax.png) 50% 0 fixed;
-    position: relative; 
+ 
+.font {
+    font-family: 'Montserrat', sans-serif; 
 }
