@@ -1,19 +1,17 @@
 <%- model_class = Article -%>
 <div class="page-header container">
-
   <%= image_tag @article.photo.url(:medium) %>
 </div>
 
-<div class="text-center">
+<div class="text-center text container">
   <h1><%= @article.title %></h1>
-  <h1><%= @article.tag.name %></h1>
 </div>
 
 <div class="text-center date">
   <%= @article.created_at.strftime('%A, %B %d')%>
 </div>
 
-<art class=" row art">
+<art class=" row art text">
   <div class="col-lg-10 text-center right show-article">
     <%=  @article.content %>
   </div> 

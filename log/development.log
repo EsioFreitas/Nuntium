@@ -26005,8 +26005,79 @@ Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
 
 
 
+<<<<<<< HEAD
 NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
   app/views/users/registrations/new.html.erb:8:in `block in _app_views_users_registrations_new_html_erb__1457594206018128607_70238070290400'
   app/views/users/registrations/new.html.erb:3:in `_app_views_users_registrations_new_html_erb__1457594206018128607_70238070290400'
 
 Started POST "/__better_errors/eaaa230deb97945d/variables" for 127.0.0.1 at 2018-07-01 21:35:24 -0300
+=======
+Started GET "/" for 127.0.0.1 at 2018-07-01 21:27:36 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 7911ms (Views: 7902.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-07-01 21:28:44 -0300
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:16
+  Rendered articles/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 90ms (Views: 67.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 21:28:51 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (2.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 98ms (Views: 76.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 21:29:06 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1965ms (Views: 1949.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 21:31:16 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 62.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-07-01 21:31:31 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:74
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1930ms (Views: 1912.6ms | ActiveRecord: 1.8ms)
+
+
+>>>>>>> 040c5fa43b9d5009c4765bad927530d26d4a8890
