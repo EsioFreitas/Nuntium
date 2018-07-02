@@ -27601,3 +27601,796 @@ Processing by PerfilController#index as HTML
 Completed 200 OK in 2431ms (Views: 2428.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:55:58 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3271.9ms)
+Completed 200 OK in 3453ms (Views: 3442.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:57:03 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 2254ms (Views: 2251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:58:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2545ms (Views: 2542.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2504ms (Views: 2501.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2232ms (Views: 2231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 12:59:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2323ms (Views: 2320.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:00:09 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2232ms (Views: 2230.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:00:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 2404ms (Views: 2399.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2293ms (Views: 2289.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:13 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2324ms (Views: 2321.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:04:29 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 105ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:08:47 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2490ms (Views: 2486.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:05 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2389ms (Views: 2386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2117ms (Views: 2115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:49 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2593ms (Views: 2591.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:09:55 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2273ms (Views: 2270.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:11:40 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2213ms (Views: 2207.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:11:55 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2261ms (Views: 2259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:12:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 2304ms (Views: 2302.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:12:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 2378ms (Views: 2374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:04 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2282ms (Views: 2278.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:38 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was "#":
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___3704881814487768432_70240559997340'
+
+Started POST "/__better_errors/2ce0d79b5b6b70b5/variables" for 127.0.0.1 at 2018-07-02 13:13:39 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:48 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 2496ms (Views: 2493.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:13:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2287ms (Views: 2285.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2376ms (Views: 2374.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:17 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:27 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2299ms (Views: 2297.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:14:36 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2485ms (Views: 2480.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:15:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 149ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:16:34 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2480ms (Views: 2476.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:17:00 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 2621ms (Views: 2610.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:17:31 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 2412ms (Views: 2406.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:18:32 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/b0d39b39f7bceafc/variables" for 127.0.0.1 at 2018-07-02 13:18:32 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:19:45 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/9d39adf3460cfb59/variables" for 127.0.0.1 at 2018-07-02 13:19:46 -0300
+Started GET "/" for 127.0.0.1 at 2018-07-02 13:22:03 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home
+  Rendered home/index.html.erb within layouts/home (1.5ms)
+Completed 200 OK in 551ms (Views: 541.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:22:12 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<', expecting ')'
+        <div id = "RestanteUser">
+         ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected '<'
+            <h1>Artigos Publicados</h1>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:15: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+            <h1>Artigos Publicados</h1>
+                                  ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:16: unknown regexp options - hr
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:18: syntax error, unexpected '<'
+            <div id = "Tabs">
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:23: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:24: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:25: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:31: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:32: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:33: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:39: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:40: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:41: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:45: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:47: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:48: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:49: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected '<'
+                <div class="card bg-dark text-...
+                 ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss="card bg-dark text-white" id = "ArtigoPublicado">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected '<', expecting ')'
+                    <div class="card-img-overlay" ...
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...div class="card-img-overlay" id ="ArticleOverlay">
+...                               ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected '<'
+                    <h5 class="card-title">Card title</h5>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+                    <h5 class="card-title">Card title</h5>
+                                                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:55: unknown regexp option - p
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:56: syntax error, unexpected '<'
+                    </div>
+                     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:57: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:58: syntax error, unexpected '<'
+            </div>
+             ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:60: unknown regexp options - dv
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: syntax error, unexpected '<'
+    </div>
+     ^
+/home/feo/UnB/OO/Ep3/Habemus-Nuntium/app/views/perfil/index.html.erb:62: unterminated regexp meets end of file:
+  app/views/perfil/index.html.erb:14:in `'
+
+Started POST "/__better_errors/63ccda65ac8b7eea/variables" for 127.0.0.1 at 2018-07-02 13:22:12 -0300
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:22:33 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:23:24 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 3027ms (Views: 3023.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:23:51 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 2440ms (Views: 2437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:24:08 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2433ms (Views: 2431.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:25:21 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2417ms (Views: 2415.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:25:56 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2465ms (Views: 2463.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:16 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2435ms (Views: 2433.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:25 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:26:41 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 2414ms (Views: 2410.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:27:10 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 100ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:27:42 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:01 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 99ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:37 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2336ms (Views: 2328.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:44 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2365ms (Views: 2362.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:52 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 115ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 13:28:58 -0300
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
