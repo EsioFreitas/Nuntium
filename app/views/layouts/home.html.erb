@@ -84,65 +84,27 @@
 
     <% #Tags %>
     <div id ="Tags">
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">1</h1>
-        </div>
-      </div> 
 
+    <% @tag.each do |tag| %>
+      <%= link_to tag_path(tag) do %>
       <div class="card bg-dark text-white" id = "Tag">
         <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
         <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">2</h1>
+          <h1 class="card-title"><%= tag.name%></h1>
         </div>
+        
       </div> 
+      <% end %>
+      
+      <% end %>
 
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">3</h1>
-        </div>
-      </div> 
-
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">4</h1>
-        </div>
-      </div> 
-
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">5</h1>
-        </div>
-      </div> 
-
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">6</h1>
-        </div>
-      </div> 
-
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">7</h1>
-        </div>
-      </div> 
-
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title">8</h1>
-      </div>
+      
     </div> 
     <% #Fim Tags %>
 
 
   </div>
+
 
   </body>
 </html>
