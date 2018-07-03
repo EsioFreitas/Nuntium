@@ -16,8 +16,8 @@ $ rails s
 ## FUNCIONAMENTO
 Segue como o programa funciona:
 1. Qualquer usuário pode ler os artigos;
-2. Apenas usuários podem fazer artigos 
-3. Apenas os proprietário dos artigos podem editar/apagar os artigo
+2. Apenas usuários logados podem fazer artigos;
+3. Apenas o proprietário dos artigos pode editá-los ou apagá-los.
   
 
 ## IDEALIZADORES
