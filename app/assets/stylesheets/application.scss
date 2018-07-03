@@ -10,53 +10,51 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  */
+$import: "bootstrap";
+$import: url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
- $import: "bootstrap";
- $import: url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+.text {
+  font-family: 'Roboto Mono', monospace;
+}
 
- .text{
-    font-family: 'Roboto Mono', monospace;
+.magin-bottom {
+  margin-bottom: 2rem;
+}
 
- }
+.margin-top {
+  margin-top: 2rem;
+}
 
- .magin-bottom{
-     margin-bottom: 2rem;
- }
+.margin-left {
+  margin-right: 0 !important;
+  margin-left: 20em;
+}
 
- .margin-top{
-     margin-top: 2rem;
- }
+.margin-botton {
+  margin-bottom: 5rem;
+}
 
- .margin-left{
-     margin-right: 0 !important;
-     margin-left: 20em;
- }
+.marg {
+  margin-left: 0.5em;
+}
 
- .margin-botton{
-    margin-bottom: 5rem;
- }
-
- .marg{
-     margin-left: .5em;
- }
- .down{
-     margin-top: 2rem;
- }
+.down {
+  margin-top: 2rem;
+}
 
 .back {
-    background-color: white;
-    padding-top: 5em;
+  background-color: white;
+  padding-top: 5em;
 }
 
 #NavBar {
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    z-index: 1;
-    box-shadow: 1px 1px 5px #d0ccd0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 1px 1px 5px #d0ccd0;
 }
 
-.dropdown-item a:hover{
-    color: red;
+.dropdown-item a:hover {
+  color: red;
 }
-

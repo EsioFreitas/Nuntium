@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-
   <head>
     <title>Nuntium</title>
-    <link rel="stylesheet" type="text/css" href="CSSReset.css" />
+    <link rel="stylesheet" type="text/css" href="CSSReset.css"/>
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script src="https:S//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -19,15 +18,12 @@
     <%= stylesheet_link_tag "perfil" %>
     <%= stylesheet_link_tag "tags" %>
 
-
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application' %>
   </head>
 
-  
-
   <body class="text back">
-  <%= render 'layouts/navbar', class: "font"  %>
+    <%= render 'layouts/navbar', class: "font" %>
     <%= yield %>
   </body>
 </html>
