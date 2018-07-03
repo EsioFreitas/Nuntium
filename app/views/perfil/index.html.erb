@@ -6,7 +6,7 @@
 
             <div id = "NomeTexto">
                 <h3 class="text-uppercase font-weight-bold text-center"  ><%= @perfil.name%></h3>
-                <h6 id = ""><%= @perfil.about %></h6>
+                <h6 class = "text"><%= @perfil.about %></h6>
                 <div id = "BotoesPerfil">
                 <%= link_to t('.edit', :default => t("helpers.links.edit")),
                 edit_user_registration_path(user_session), :class => 'btn btn-primary' , id: "Botao"%>
