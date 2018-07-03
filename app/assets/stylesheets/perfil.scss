@@ -82,7 +82,7 @@
 
 #BotoesArtigo {
     width: 17.5em;
-    height: 7em;
+    height: 5em;
     display: flex;
     justify-content: space-around;
     align-items: flex-end; 
@@ -91,8 +91,9 @@
 #BotoesPerfil {
     display: flex;
     height: 50%;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
+    
 }
 
 #Botao {

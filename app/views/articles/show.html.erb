@@ -1,13 +1,16 @@
 <%- model_class = Article -%>
 
-  <%= image_tag @article.photo.url(:medium), class: "rounded mx-auto d-block img" %>
+  <%= image_tag @article.photo.url(:medium), class: "rounded mx-auto d-block img container                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      " %>
   
 
   <h1 class="font-weight-bold title text-center"><%= @article.title %></h1>
 
 <div class="text-center date">
-  <%= @article.created_at.strftime('%A, %B %d')%>
-  <%=  @article.tag.name %>
+  <%= @article.tag.name %>
+</div>
+<div class="container down  ">
+<strong class="text-uppercase">By <%= @article.user.name  %></strong></br>
+<%= @article.created_at.strftime('%A, %B %d')%></br>
 </div>
 
 <div class="container content">
