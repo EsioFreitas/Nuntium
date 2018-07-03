@@ -10,6 +10,8 @@ class ApplicationController < ActionController::Base
 
   end
 end
-def show
-  @user = User.find(params[:id])
+
+def busca
+  @nome_a_buscar = params[:nome]
+    @produtos = Produto.where "nome like ?", "%#{@nome_a_buscar}%"
 end
