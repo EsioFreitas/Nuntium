@@ -42,8 +42,7 @@
   <% #HomePage %>
   <div class= "container .h3 text " style = "padding-top: 5em">
     <div>
-      <h1>Whats New?</h3>
-      <hr></hr>
+      <h1 class="font-weight-bold">Whats New?</h1>
     </div>
 
       <% #Artigos Pequenos %>
@@ -78,32 +77,36 @@
 
     
     <div class = "container .h3 text ">
-      <h3>Tags</h3>
+      <h1 class="font-weight-bold">Tags</h1>
       <hr></hr>
     </div>
 
-    <% #Tags %>
-    <div id ="Tags">
+    <div class="container">
 
+<div class="row">
     <% @tag.each do |tag| %>
+      <div class="col-3">
       <%= link_to tag_path(tag) do %>
-      <div class="card bg-dark text-white" id = "Tag">
-        <%= image_tag "foto.jpg", id: "ImagemCardSmall" %>
-        <div class="card-img-overlay" id = "TagName">
-          <h1 class="card-title"><%= tag.name%></h1>
-        </div>
+      <div class="card bg-dark text-white " id = "Tag">
+      <%= image_tag tag.avatar.url, id: "ImagemCardSmall" %>
         
+        <div class="card-img-overlay" id = "TagName">
+          <h1 class="card-title text" id = "TagText" ><%= tag.name%></h1>
+        </div>
+        </div>
       </div> 
       <% end %>
       
       <% end %>
-
-      
+</div>
+     
     </div> 
     <% #Fim Tags %>
 
 
   </div>
+  </div>
+
 
 
   </body>

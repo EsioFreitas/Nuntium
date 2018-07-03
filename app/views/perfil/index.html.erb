@@ -2,19 +2,21 @@
     <div  id = "UserPage">
 
         <div id = "FotoDescricao">
-            <%= image_tag "foto.jpg", id: "UserImage" %>
+        <%= image_tag @perfil.avatar.url, id: "UserImage" %>
+
+            
 
             <div id = "NomeTexto">
                 <h3 class="text-uppercase font-weight-bold text-center"  ><%= @perfil.name%></h3>
-                <h6 class = "text"><%= @perfil.about %></h6>
+                <h6 class = "text text-center"><%= @perfil.about %></h6>
                 <div id = "BotoesPerfil">
                 <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                edit_user_registration_path(user_session), :class => 'btn btn-primary' , id: "Botao"%>
+                edit_user_registration_path(user_session), :class => 'btn btn-outline-primary' , id: "Botao"%>
                 <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                 user_registration_path(user_session),
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger', id: "Botao" %>
+              :class => 'btn btn-outline-danger', id: "Botao" %>
                 </div>
             </div>
 
