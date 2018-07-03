@@ -5,7 +5,7 @@
     <% if !user_signed_in? %>
     <ul class="navbar-nav mr-auto">
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-tog gle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Log In
       </a>
       
@@ -23,13 +23,13 @@
           
           <div class="dropdown-menu">
             <form class="px-4 py-3">
-              <%= link_to 'Profile', perfil_index_path, class: "dropdown-item"%>
-              <%= link_to 'New article', new_article_path, class: "dropdown-item"%>
-              <%= link_to 'Logout' , destroy_user_session_path, method: :delete, class: "dropdown-item"%>
+              <%= link_to 'Profile', perfil_index_path, class: "dropdown-item" %>
+              <%= link_to 'New article', new_article_path, class: "dropdown-item" %>
+              <%= link_to 'Logout' , destroy_user_session_path, method: :delete, class: "dropdown-item" %>
               </form>
-              <% end %>
+              
           </div>
-          
+          <% end %>
 
 
         </li>
