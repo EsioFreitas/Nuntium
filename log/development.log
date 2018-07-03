@@ -29969,3 +29969,12 @@ Processing by PerfilController#index as HTML
 Completed 200 OK in 2400ms (Views: 2396.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/perfil/index" for 127.0.0.1 at 2018-07-02 22:01:33 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/feo/.rvm/gems/ruby-2.3.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PerfilController#index as HTML
+  Rendering perfil/index.html.erb within layouts/application
+  Rendered perfil/index.html.erb within layouts/application (360.5ms)
+Completed 200 OK in 508ms (Views: 498.0ms | ActiveRecord: 0.0ms)
+
+
