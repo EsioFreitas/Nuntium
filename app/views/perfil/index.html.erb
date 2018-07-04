@@ -1,0 +1,60 @@
+
+    <div  id = "UserPage">
+
+        <div id = "FotoDescricao">
+        <%= image_tag @perfil.avatar.url, id: "UserImage" %>
+
+            
+
+            <div id = "NomeTexto">
+                <h3 class="text-uppercase font-weight-bold text-center"  ><%= @perfil.name%></h3>
+                <h6 class = "text text-center"><%= @perfil.about %></h6>
+                <div id = "BotoesPerfil">
+                <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                edit_user_registration_path(user_session), :class => 'btn btn-outline-primary' , id: "Botao"%>
+                <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                user_registration_path(user_session),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-outline-danger', id: "Botao" %>
+                </div>
+            </div>
+
+        </div>
+
+        <div id = "aaaa">
+            <h1 style = "margin-left: 0.4em">Artigos Publicados</h1>
+
+            <div class="content-cards">
+            <% @perfil.articles.each do |article| %>
+            
+            <div class="card bg-dark text-white" id = "ArtigosPublicado">
+            <%= image_tag article.photo.url(:medium), id: "ImagemArtigoPublicado" %>
+                <div class="card-img-overlay" id ="ArticleOverlay">
+                <h5 class="card-title"> <%= article.title %> </h5>
+                <p class="card-text"><%= article.description%></p>
+                <div id = "BotoesArtigo">
+
+                <%= link_to t('.show', :default => t("helpers.links.show")),
+              article_path(article), :class => 'btn btn-outline-secondary' , id: "Botao"%>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_article_path(article), :class => 'btn btn-outline-primary' , id: "Botao"%>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              article_path(article),
+              :method => :delete,
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-outline-danger' , id: "Botao"%>
+
+                
+
+    </div>
+                </div>
+        
+      </div>
+      
+      <% end %>
+  </div>
+ 
+        </div>
+
+    </div>

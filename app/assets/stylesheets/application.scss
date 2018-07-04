@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ */
+
+ $import: "bootstrap";
+ $import: url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+ .text{
+    font-family: 'Roboto Mono', monospace;
+
+ }
+
+ .magin-bottom{
+     margin-bottom: 2rem;
+ }
+
+ .margin-top{
+     margin-top: 2rem;
+ }
+
+ .margin-left{
+     margin-right: 0 !important;
+     margin-left: 20em;
+ }
+
+ .margin-botton{
+    margin-bottom: 5rem;
+ }
+
+ .marg{
+     margin-left: .5em;
+ }
+ .down{
+     margin-top: 2rem;
+ }
+
+.back {
+    background-color: white;
+    padding-top: 5em;
+}
+
+#NavBar {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+    box-shadow: 1px 1px 5px #d0ccd0;
+}
+
+.dropdown-item a:hover{
+    color: red;
+}
+

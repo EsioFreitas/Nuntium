@@ -1,0 +1,45 @@
+<%- model_class = Article -%>
+
+  <%= image_tag @article.photo.url(:medium), class: "rounded mx-auto d-block img container                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      " %>
+  
+
+  <h1 class="font-weight-bold title text-center"><%= @article.title %></h1>
+
+<div class="text-center date">
+  <%= @article.tag.name %>
+</div>
+<div class="container down  ">
+<strong class="text-uppercase">By <%= @article.user.name  %></strong></br>
+<%= @article.created_at.strftime('%A, %B %d')%></br>
+</div>
+
+<div class="container content">
+  <%=  @article.content %>
+  
+</div> 
+<div class="container">
+<div id="disqus_thread"></div>
+  <script>
+
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://habemus-nuntium.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+                            
+
+
+              

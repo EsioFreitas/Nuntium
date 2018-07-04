@@ -1,0 +1,25 @@
+{:uriI"”file://app/assets/javascripts/parallax.js-1.5.0/bower.json?type=application/json&id=77aaccad2645f005440de6392ee10b4618024b77be836be23740fa392cf71edc:ET:load_pathI"app/assets/javascripts;T:filenameI"8app/assets/javascripts/parallax.js-1.5.0/bower.json;T:	nameI"parallax.js-1.5.0/bower;T:logical_pathI"!parallax.js-1.5.0/bower.json;T:content_typeI"application/json;T:sourceI"*{
+  "name": "parallax.js",
+  "version": "1.5.0",
+  "homepage": "http://pixelcog.com/parallax.js/",
+  "description": "Simple parallax scrolling effect inspired by spotify.com implemented as a jQuery plugin",
+  "authors": [
+    "Mike Greiling <mike@pixelcog.com> (http://pixelcog.com)",
+    "Wolfgang StÃ¶ttinger (http://www.wolfography.at)"
+  ],
+  "main": "parallax.min.js",
+  "license": "MIT",
+  "keywords" : ["parallax", "scroll", "scrolling", "image"],
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Ffile-digest://app/assets/javascripts/parallax.js-1.5.0/bower.json;TTF:charsetI"
+utf-8;F:digest"%Õr°ûÛ¦œpù!\Ğwy¥üß°‘ˆZ#²±ü+v5:lengthi*:dependencies_digest"%ÉÊ-”_P'\rq:ª×´]¯_oXÄÕwèÁ3¼:idI"E77aaccad2645f005440de6392ee10b4618024b77be836be23740fa392cf71edc;F:
+mtimel+eZÜY

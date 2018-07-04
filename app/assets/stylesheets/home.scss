@@ -1,3 +1,118 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import " bootstrap ";
+
+
+#ImagemCard {
+   object-fit: cover;
+   height: 30em;
+}
+
+#SmallTrendingArea {
+   width: 100%;
+   height: 30em;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 5%;
+}
+
+#SmallTrending {
+   width: 47%;
+   height: 8em !important;
+   margin-bottom: 3em;
+}
+
+#ImagemCardSmall {
+   object-fit: cover;
+   height: 8em;
+}
+
+#CardOverlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: black;
+}
+
+#BigTrending:hover #CardOverlay {
+   opacity: 0.6;
+} 
+
+#SmallTrending:hover #CardOverlay {
+   opacity: 0.6;
+} 
+
+#Tags {
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+#Tag {
+   height: 8em !important;
+   margin-bottom: 1em;
+   position: relative;
+   overflow: hidden;
+}
+
+#TagName {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#Tag #ImagemCardSmall {
+  width: 100%; 
+   border-radius: 2px;
+   -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+       -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+         -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+            transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+#Tag:hover #ImagemCardSmall {
+   -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+       -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+           transform: scale(1.5);
+   filter: blur(10px);
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#ArtigosPublicado:hover #ArticleOverlay {
+    opacity: 0.6;
+ }
+
+ .content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#area1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#TagText {
+  text-shadow: 1px 1px 30px black;
+
+}
+.text{
+    font-family: 'Roboto Mono', monospace;
+
+ }

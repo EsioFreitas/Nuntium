@@ -1,0 +1,16 @@
+<div class="content-cards">
+    <% @tag.articles.each do |article| %>
+      <%= link_to article_path(article) do %>
+      <div class="card bg-dark text-white" id = "ArtigosPublicado">
+      <%= image_tag article.photo.url(:medium), id: "ImagemArtigoPublicado" %>
+      <div class="card-img-overlay" id ="ArticleOverlay">
+          <h5 class="card-title"> <%= article.title %> </h5>
+          <p class="card-text"><%= article.description%></p>
+        </div>
+        
+      </div>
+      <% end %>
+      
+      <% end %>
+  </div>
+ 
