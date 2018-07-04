@@ -9,7 +9,34 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "home" %>
+    <%= stylesheet_link_tag "application" %>
 
+    <%= stylesheet_link_tag "application", :media => "all" %>
+
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <!-- Size should be 144 x 144 pixels -->
+
+    <!-- For iPhone with high-resolution Retina display: -->
+    <!-- Size should be 114 x 114 pixels -->
+
+    <!-- For first- and second-generation iPad: -->
+    <!-- Size should be 72 x 72 pixels -->
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <!-- Size should be 57 x 57 pixels -->
+
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+
+    <%= javascript_include_tag "application" %>
+    <%= stylesheet_link_tag "application" %>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+    <![endif]-->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -29,5 +56,7 @@
   <body class="text back">
   <%= render 'layouts/navbar', class: "font"  %>
     <%= yield %>
+    <%= render 'layouts/navbar', class: "font"  %>
+
   </body>
 </html>

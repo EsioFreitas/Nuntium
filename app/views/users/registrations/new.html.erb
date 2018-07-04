@@ -1,55 +1,43 @@
+<h2>Sign up</h2>
+
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
 
-  <div class="container">
-    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: {class: "form-signin"}) do |f| %>
-      <%= devise_error_messages! %>
-      <h2 class="form-signin-heading">Please sign in</h2>
-
-      <div class="form-group">
-        <%= f.label :name, 'Nome', class: 'sr-only' %>
-        <%= f.text_field :name, autofocus: true, class: 'form-control', placeholder: 'Nome' %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :about, 'About', class: 'sr-only' %>
-        <%= f.text_area :about, autofocus: true, class: 'form-control', placeholder: 'About' %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :email, 'Email Address', class: 'sr-only' %>
-        <%= f.email_field :email, autofocus: true, class: 'form-control', placeholder: 'Email Address' %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :password, 'Password', class: 'sr-only' %>
-          <% if @minimum_password_length %>
-          <em>(<%= @minimum_password_length %> characters minimum)</em>
-          <% end %><br />
-        <%= f.password_field :password, autocomplete: "off", class: 'form-control', placeholder: 'Password' %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :password_confirmation,  'Password Confirmation', class: 'sr-only' %>
-        <%= f.password_field :password_confirmation, autocomplete: "off", class: 'form-control', placeholder: 'Password Confirmation' %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :avatar, 'Avatar', class: 'sr-only ' %>
-        <%= f.file_field :avatar %>
-      </div>
-
-        <% if devise_mapping.rememberable? -%>
-          <label>
-            <%= f.check_box :remember_me, label: false %>
-            Remember me
-          </label>
-        <% end -%>
-
-      <%= f.button "Sign in", class: 'btn btn-lg btn-primary btn-block' %>
-    <% end %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, autofocus: true, autocomplete: "name" %>
   </div>
 
+  <div class="field">
+  <%= f.label :about %><br />
+  <%= f.text_area :about, autofocus: true, autocomplete: "about" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+  </div>
+  
+  <div class="field">
+  <%= f.label :avatar %><br />
+  <%= f.file_field :avatar %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Sign up" %>
+  </div>
 <% end %>
-
-
 

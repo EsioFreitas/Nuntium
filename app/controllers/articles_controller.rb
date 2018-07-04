@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
   before_action :set_user, only: [:create, :edit, :new]
 
 
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except: [:show, :index]
 
   # GET /articles
   # GET /articles.json
