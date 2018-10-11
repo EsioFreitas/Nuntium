@@ -1,7 +1,7 @@
 O programa é uma aplicação web de compartilhamento de artigos. No site a usuário pode ver diversos artigos e caso ela queira expressar suas ideias, ela pode fazer uma contra e produzir seus próprios artigos. Além disso, o site tem uma área de tags o cal filtra os tipos assuntos dos artigos. 
 
 
-## PRÉ-REQUISITOS (IDE - Netbeans)
+## PRÉ-REQUISITOS (Ruby '2.3.1')
 Para poder usar o prgrama, deverá usar os seguintes passos: 
 1. Dar git clone do repositório;
 2. Siga os seguintes comandos:
